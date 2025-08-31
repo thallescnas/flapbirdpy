@@ -65,7 +65,7 @@ class Bird:
             desloc -= 2
         self.y += desloc
 
-        if desloc < 0 or self.y < (self.hight + 50):
+        if desloc < 0 or self.x < (self.hight + 50):
             if self.angle > self.ROTATION_MAX:
                 self.angle = self.ROTATION_MAX
         else:
